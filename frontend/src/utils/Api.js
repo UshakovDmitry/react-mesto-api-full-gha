@@ -94,6 +94,7 @@ class Api {
 }
 
 const api = new Api({
+  baseUrl: "https://api.ushakov.nomoreparties.co/",
   baseUrl: "http://localhost:3001/",
   headers: {
     "Content-Type": "application/json",

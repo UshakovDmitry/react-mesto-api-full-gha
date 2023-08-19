@@ -17,7 +17,7 @@ const { PORT = 3001 } = process.env;
 const app = express();
 
 app.use(
-  cors({ origin: ['http://localhost:3000'], credentials: true, maxAge: 30 }),
+  cors({ origin: ['http://localhost:3000', 'https://ushakov.nomoreparties.co'], credentials: true, maxAge: 30 }),
 );
 mongoose.connect('mongodb://localhost:27017/mestodb', {
   useNewUrlParser: true,

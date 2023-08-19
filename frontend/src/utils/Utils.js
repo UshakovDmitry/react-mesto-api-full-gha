@@ -11,4 +11,4 @@ res.ok
   : Promise.reject(`Ошибка: ${res.status}`);
 
 
-  export const AUTH_URL = 'http://localhost:3001/';
+  export const AUTH_URL = 'https://api.ushakov.nomoreparties.co/';
