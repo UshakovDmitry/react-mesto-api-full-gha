@@ -12,7 +12,6 @@ const errorHandler = require('./middlewares/errorHandler');
 const NotFoundError = require('./errors/NotFoundError');
 const { signUp, signIn } = require('./middlewares/joi-validations');
 
-
 const { PORT = 3001 } = process.env;
 const app = express();
 
